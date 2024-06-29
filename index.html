@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ignacio Velazquez</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="title">
+          <a href="#section_me">Ignacio Velazquez</a>
+        </div>
+        <div>
+          <button class="toggle_btn">
+            <i class="bi bi-list text-light"></i>
+          </button>
+        </div>
+      </nav>
+      <div class="nav_links_container">
+        <ul class="nav-links animate__animated animate__fadeInLeft">
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#studies">Estudios</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section id="section_me" class="section">
+      <div class="about">
+        <img src="/assets/img/yo-webp.webp" alt="Mi foto" class="about-photo" />
+        <div class="about-text">
+          <h1>Sobre mí</h1>
+          <p>
+            Soy desarrollador FullStack MERN con año y medio de experiencia en
+            la creación de aplicaciones web. Actualmente, ocupo el puesto de
+            Team Leader en Startek, donde lidero a un equipo hacia el
+            cumplimiento de KPIs. Sin embargo, mi verdadera pasión reside en el
+            mundo de la tecnología y sueño con la oportunidad de realizar una
+            transición formal hacia el sector IT.
+          </p>
+          <div class="btn-container">
+            <a class="btn-primary" href="#contact">Contacto</a>
+
+            <a
+              class="btn-secondary"
+              href="assets/PDF/CV-Ignacio-Velazquez.pdf"
+              download="cv"
+            >
+              Descargar CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h1 class="timeline-title">Experiencia</h1>
+      <ul class="timeline">
+        <li class="timeline-item" style="--accent-color: var(--primary-color)">
+          <div class="timeline-date">2019 - Actual</div>
+          <div class="timeline-title">Team Leader</div>
+          <div class="timeline-descr">
+            <ul>
+              <li>
+                Lidero un equipo de alto rendimiento que brinda un servicio
+                excepcional.
+              </li>
+              <li>
+                Utilizo análisis de datos y KPIs en Excel avanzado para
+                identificar áreas de mejora.
+              </li>
+              <li>
+                Implemento estrategias basadas en datos para aumentar la
+                eficiencia y la satisfacción del cliente.
+              </li>
+              <li>
+                Apasionado por el trabajo en equipo y la colaboración para
+                lograr objetivos comunes.
+              </li>
+              <li>Hasta 24 personas a cargo</li>
+            </ul>
+          </div>
+        </li>
+        <li
+          class="timeline-item"
+          style="--accent-color: var(--secondary-color)"
+        >
+          <div class="timeline-date">2018 - 2022</div>
+          <div class="timeline-title">Dueño de emprendimiento</div>
+          <div class="timeline-descr">
+            <ul>
+              <li>Diseño gráfico: Canva, Corel Draw.</li>
+              <li>Manejo y diseño de imágenes.</li>
+              <li>Programación de Arduino.</li>
+              <li>Impresión 3D y CNC.</li>
+              <li>Sublimación y corte plotter.</li>
+              <li>Especialización en trabajos personalizados.</li>
+              <li>hasta 3 personas a cargo</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item" style="--accent-color: var(--text-color)">
+          <div class="timeline-date">2017 - 2019</div>
+          <div class="timeline-title">Agente de Soporte Técnico</div>
+          <div class="timeline-descr">
+            <ul>
+              <li>Atención al cliente: Cablevisión-Fibertel.</li>
+              <li>Resolución de problemas técnicos.</li>
+              <li>Habilidades de comunicación efectiva.</li>
+              <li>Orientación al cliente.</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section">
+      <h1>Proyectos</h1>
+      <div class="projects">
+        <div class="card">
+          <img
+            src="/assets/project/giffs/am-creaciones.gif"
+            alt="Imagen del proyecto"
+            class="card-image"
+          />
+          <div class="card-content">
+            <h2>Am Creaciones</h2>
+            <p>
+              Este proyecto, un eCommerce, se desarrolló como proyecto final
+              durante mi formación en Rolling Code School. Fue construido
+              empleando tecnologías esenciales como Express, Express Validator,
+              Bcrypt, JWT y Email.js, y utilizó MongoDB junto con el framework
+              Mongoose para gestionar la base de datos.
+            </p>
+            <a
+              href="https://am-creaciones.netlify.app/"
+              target="_blank"
+              class="card-button"
+              >Ver más</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="/assets/project/giffs/startek.gif"
+            alt="Imagen del proyecto"
+            class="card-image"
+          />
+          <div class="card-content">
+            <h2>NPS Startek</h2>
+            <p>
+              Este proyecto fue desarrollado para mi empresa con el objetivo de
+              optimizar el proceso de medición del Net Promoter Score (NPS) en
+              el contexto de nuestro cliente TELECOM. Utilicé la plataforma
+              Firebase para alojar los archivos como imagenes, audios y MongoDB
+              para almacenar las encuestas. Este proyecto nos permite tomar
+              decisiones basadas en datos en tiempo real para mejorar la
+              satisfacción del cliente en el llamado en curso
+            </p>
+            <a
+              href="https://startek.netlify.app/"
+              target="_blank"
+              class="card-button"
+              >Ver más</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="/assets/project/giffs/Polaris3D.gif"
+            alt="Imagen del proyecto"
+            class="card-image"
+          />
+          <div class="card-content">
+            <h2>Polaris 3D SSR</h2>
+            <p>
+              Este proyecto fue desarrollado para un curso que desarrolle en
+              Digit@lers TELECOM. Desarrollo de aplicaciones con node JS Claves
+              de usuarios encriptadas con bcrypt autenticación con JWT, express
+              sessión y envío de mail a usuarios con nodemailer
+            </p>
+            <a
+              href="http://polaris3d.onrender.com/"
+              target="_blank"
+              class="card-button"
+              >Ver más</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="/assets/project/giffs/entrevista.gif"
+            alt="Imagen del proyecto"
+            class="card-image"
+          />
+          <div class="card-content">
+            <h2>Lab 9</h2>
+            <p>
+              Este proyecto web Lo tuve que realizar en 6 días para mi primer
+              entrevista para una empresa llamada lab9, donde tenia que aplicar:
+              react-router-dom redux-toolkit y ademas utilizar la libreria
+              deysyUI para los componentes.
+            </p>
+            <a
+              href="https://entrevistalab9.netlify.app/"
+              target="_blank"
+              class="card-button"
+              >Ver más</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="studies" class="section">
+      <h1 class="timeline-title">Estudios</h1>
+      <ul class="timeline">
+        <li class="timeline-item" style="--accent-color: var(--primary-color)">
+          <div class="timeline-date">2024</div>
+          <div class="timeline-title">Técnicatura en Programación</div>
+          <div class="timeline-descr">
+            Actualmente me encuentro cursando la técnicatura en programación en
+            la UTN Facultad Regional de San Rafael. Profesionalizandome con los
+            fundamentos de programación y trabajando con los Lenguajes JAVA ,
+            PYTHON y JAVASCRIPT.
+          </div>
+        </li>
+        <li
+          class="timeline-item"
+          style="--accent-color: var(--secondary-color)"
+        >
+          <div class="timeline-date">2023</div>
+          <div class="timeline-title">Digitallers & Desarrollador REACT</div>
+          <div class="timeline-descr">
+            En 2023 Realice los cursos de Programador en Node en el programa
+            Digitallers de Telecom donde aprendi las bases para realizar un
+            proyecto completo basado en express. En paralelo Curse en la UTN Bs
+            As un Curso de desarrollo con react donde vimos las bases para un
+            realizar un proyecto completo utilizando Firebase.
+          </div>
+        </li>
+        <li class="timeline-item" style="--accent-color: var(--text-color)">
+          <div class="timeline-date">2022</div>
+          <div class="timeline-title">Desarrolo Full Stack MERN</div>
+          <div class="timeline-descr">
+            En este Bootcam de 8 meses me inicie en el mundo de la programación
+            con el stack mern , este curso lo realice en Rollingo Code School.
+            Para aprobar el bootcam realizamos un ecommerce completo.
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="contact-container">
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7120.054925035994!2d-65.2137524633031!3d-26.839078814026536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0c77a4883d%3A0x2f9d1bdcc9767a1c!2sPlaza%20San%20Mart%C3%ADn!5e0!3m2!1ses-419!2sar!4v1719623218639!5m2!1ses-419!2sar"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <form class="contact-form">
+          <h2>Contacto</h2>
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn-primary">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <ul class="footer-links">
+        <li>
+          <a href="https://github.com/IgnacioVelazquez92" target="_blank">
+            <i class="bi bi-github"></i>
+            Mi Github
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/omar-ignacio-velazquez-44499414a/"
+            target="_blank"
+          >
+            <i class="bi bi-linkedin"></i>
+            Linkedin
+          </a>
+        </li>
+        <li>
+          <a href="https://x.com/Ignacio_V10 " target="_blank">
+            <i class="bi bi-twitter"></i>
+            Mi Twitter
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
